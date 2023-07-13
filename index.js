@@ -14,8 +14,8 @@ app.get('/query', async (req, res) => {
   res.send('query');
 });
 
-app.listen(3001, () => {
-  console.log('Server is running on port 3001');
+app.listen(1337, () => {
+  console.log('Server is running on port 1337');
 });
 
 
