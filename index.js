@@ -42,9 +42,9 @@ const describe = () => {
 const query = async () => {
   try {
     const client = new Client({
-      host: process.env.DB_HOST,
-      user: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
+      host: process.env.DATABASE_HOST,
+      user: process.env.DATABASE_USER,
+      password: process.env.DATABASE_PASSWORD,
       database: 'expo',
       port: 5432,
     })
